@@ -20,7 +20,7 @@
           <h5 class="card-title">商品リスト<a href="/items/new" class="btn btn-success float-right">新規</a></h5>
         </div>
         <div class="card-body" th:if="!${items.size()}">
-          <p>商品がありません。</p>
+          <p>商品が登録されていません。</p>
         </div>
         <table class="table table-striped" th:if="${items.size()}">
           <thead>
